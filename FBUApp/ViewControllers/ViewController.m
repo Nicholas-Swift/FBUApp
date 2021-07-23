@@ -19,6 +19,10 @@
   [super viewDidLoad];
   
   [self.view setupViewController];
+  
+  [[APIManager shared] getAllChats:channel ^{
+    // handle completion
+  }];
 }
 
 

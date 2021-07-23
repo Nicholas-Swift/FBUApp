@@ -16,6 +16,7 @@
 		65C1232D26A87A06001F4A11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C1232C26A87A06001F4A11 /* main.m */; };
 		65C1233626A87A5F001F4A11 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C1233526A87A5F001F4A11 /* DetailsViewController.m */; };
 		65C1233A26A87AFF001F4A11 /* UIView+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C1233926A87AFF001F4A11 /* UIView+Extensions.m */; };
+		65E4CF0126AB1DC900B30CBA /* APIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E4CF0026AB1DC900B30CBA /* APIManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		65C1233526A87A5F001F4A11 /* DetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
 		65C1233826A87AB7001F4A11 /* UIView+Extensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Extensions.h"; sourceTree = "<group>"; };
 		65C1233926A87AFF001F4A11 /* UIView+Extensions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extensions.m"; sourceTree = "<group>"; };
+		65E4CEFF26AB1DC000B30CBA /* APIManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIManager.h; sourceTree = "<group>"; };
+		65E4CF0026AB1DC900B30CBA /* APIManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APIManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,7 @@
 		65C1231926A87A05001F4A11 /* FBUApp */ = {
 			isa = PBXGroup;
 			children = (
+				65E4CEFE26AB1DB000B30CBA /* Networking */,
 				65C1233726A87A98001F4A11 /* Extensions */,
 				65C1233326A87A10001F4A11 /* ViewControllers */,
 				65C1231A26A87A05001F4A11 /* AppDelegate.h */,
@@ -100,6 +104,15 @@
 				65C1233926A87AFF001F4A11 /* UIView+Extensions.m */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		65E4CEFE26AB1DB000B30CBA /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				65E4CEFF26AB1DC000B30CBA /* APIManager.h */,
+				65E4CF0026AB1DC900B30CBA /* APIManager.m */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,6 +188,7 @@
 				65C1232226A87A05001F4A11 /* ViewController.m in Sources */,
 				65C1233626A87A5F001F4A11 /* DetailsViewController.m in Sources */,
 				65C1231C26A87A05001F4A11 /* AppDelegate.m in Sources */,
+				65E4CF0126AB1DC900B30CBA /* APIManager.m in Sources */,
 				65C1232D26A87A06001F4A11 /* main.m in Sources */,
 				65C1231F26A87A05001F4A11 /* SceneDelegate.m in Sources */,
 			);
